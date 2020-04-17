@@ -161,9 +161,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Wxj-uJ-DjP"/>
                     <connections>
-                        <outlet property="category" destination="VMw-p6-QFs" id="Ej0-VO-vXI"/>
                         <outlet property="contentsTextView" destination="ozh-6z-glO" id="dpZ-0i-Et7"/>
                         <outlet property="datePicker" destination="aDp-Va-LYO" id="zEs-j3-9SO"/>
+                        <outlet property="genre" destination="VMw-p6-QFs" id="9lQ-vP-Auc"/>
                         <outlet property="titleTextField" destination="mCT-lA-7IS" id="RSa-aR-ru5"/>
                     </connections>
                 </viewController>

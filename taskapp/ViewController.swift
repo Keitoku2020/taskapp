@@ -110,7 +110,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
 
-        let predicate = NSPredicate(format: "genre = %@", searchBar.text!)
+        let predicate = NSPredicate(format: "category = %@", searchBar.text!)
         taskArray = realm.objects(Task.self).filter(predicate)
         tableView.reloadData()
     }
